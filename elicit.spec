@@ -1,4 +1,5 @@
 Summary:	Screen zoomer / color picker
+Summary(pl):	Narzêdzie do powiêkszania ekranu i wybierania kolorów
 Name:		elicit
 Version:	0.9
 %define _snap	20050105
@@ -17,10 +18,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Elicit is a screen zoomer / color picker written with the
-Enlightenment Foundation Libraries (http://www.enlightnement.org). It
-depends on a large number of libraries that are only available in CVS
-at the moment, see http://rephorm.com/rephorm/code/efl for
-installation instructions.
+Enlightenment Foundation Libraries (http://www.enlightnement.org/).
+
+%description -l pl
+Elicit to narzêdzie do powiêkszania ekranu i wybierania kolorów
+napisane przy u¿yciu podstawowych bibliotek Enlightenmenta
+(Enlightenment Foundation Libraries, http://www.englightenment.org/).
 
 %prep
 %setup -q -n %{name}
@@ -36,6 +39,7 @@ installation instructions.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
