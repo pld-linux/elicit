@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING INSTALL README TODO ChangeLog
+%doc AUTHORS COPYING README TODO ChangeLog
 %attr(755,root,root) %{_bindir}/elicit
 %{_datadir}/%{name}
