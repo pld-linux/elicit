@@ -5,7 +5,7 @@ Version:	0.9
 %define _snap	20050105
 Release:	0.%{_snap}.0.1
 License:	BSD
-Group:		X11/Window Managers
+Group:		X11/Window Managers/Tools
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 Source0:	ftp://ftp.sparky.homelinux.org/pub/e17/%{name}-0.0.0-%{_snap}.tar.gz
 # Source0-md5:	261d0236f4219c136fa7108824df0739
