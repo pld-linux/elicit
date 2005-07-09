@@ -2,13 +2,13 @@ Summary:	Screen zoomer / color picker
 Summary(pl):	Narzêdzie do powiêkszania ekranu i wybierania kolorów
 Name:		elicit
 Version:	0.9
-%define _snap	20050105
+%define _snap	20050701
 Release:	0.%{_snap}.0.1
 License:	BSD
 Group:		X11/Window Managers/Tools
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-Source0:	ftp://ftp.sparky.homelinux.org/pub/e17/%{name}-0.0.0-%{_snap}.tar.gz
-# Source0-md5:	261d0236f4219c136fa7108824df0739
+Source0:	ftp://ftp.sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.gz
+# Source0-md5:	cb88094ab125e8cefadf21ec324ea4b6
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
