@@ -1,5 +1,5 @@
 Summary:	Screen zoomer / color picker
-Summary(pl.UTF-8):   Narzędzie do powiększania ekranu i wybierania kolorów
+Summary(pl.UTF-8):	Narzędzie do powiększania ekranu i wybierania kolorów
 Name:		elicit
 Version:	0.9
 %define _snap	20060307
